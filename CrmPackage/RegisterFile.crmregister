@@ -12,6 +12,14 @@
             </Step>
           </Steps>
         </Plugin>
+        <Plugin Description="Plug-in to Delete of account" FriendlyName="Delete of account" Name="SampleSol.PLug1.PreValidateaccountDelete" Id="00000000-0000-0000-0000-000000000000" TypeName="SampleSol.PLug1.PreValidateaccountDelete">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="Delete of account" Description="Delete of account" Id="00000000-0000-0000-0000-000000000000" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Delete" Mode="Synchronous" PrimaryEntityName="account" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
       </PluginTypes>
     </Solution>
     <Solution Assembly="SampleSol.C1.dll" Id="00000000-0000-0000-0000-000000000000" IsolationMode="Sandbox" SourceType="Database" />
