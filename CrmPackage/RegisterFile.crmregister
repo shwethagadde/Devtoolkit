@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
+  <Solutions>
+    <Solution Assembly="CrmVSSolution1.pp.dll" Id="00000000-0000-0000-0000-000000000000" IsolationMode="Sandbox" SourceType="Database">
+      <PluginTypes>
+        <clear />
+        <Plugin Description="Plug-in to Create of account" FriendlyName="Create of account" Name="CrmVSSolution1.pp.PreValidateaccountCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="CrmVSSolution1.pp.PreValidateaccountCreate">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="Create of account" Description="Create of account" Id="00000000-0000-0000-0000-000000000000" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="account" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+      </PluginTypes>
+    </Solution>
+    <Solution Assembly="CrmVSSolution1.cc.dll" Id="00000000-0000-0000-0000-000000000000" IsolationMode="Sandbox" SourceType="Database" />
+  </Solutions>
+  <XamlWorkflows />
+</Register>
