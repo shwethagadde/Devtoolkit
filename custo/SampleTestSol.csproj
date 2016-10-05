@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputType>Library</OutputType>
+    <ProjectGuid>{BD41B02D-0BE8-45E3-B8F2-C11578004BC7}</ProjectGuid>
+    <ProjectTypeGuids>{4B952A0A-A664-46EC-8D7E-51EBEA2E954D};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestSolution.custo</RootNamespace>
+    <AssemblyName>TestSolution.custo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <SolutionType>0</SolutionType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="MetadataProjectBinPlace.targets" />
+    <None Include="Microsoft.Crm.SolutionProjects.Metadata.targets" />
+    <ResourceDefinition Include="WebResources.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Crm.SolutionProjects.MSBuild">
+      <HintPath>$(SolutionDir)packages\SolutionMsBuild.1.3\lib\net452\Microsoft.Crm.SolutionProjects.MSBuild.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entities\new_customtestbyme\Entity.xml" />
+    <Content Include="Entities\new_customtestbyme\FormXml\card\{a41aada4-eb04-429d-817e-00b097c6245f}.xml" />
+    <Content Include="Entities\new_customtestbyme\FormXml\mainInteractionCentric\{98c8f280-3bbd-41fd-b823-454174eec449}.xml" />
+    <Content Include="Entities\new_customtestbyme\FormXml\main\{5c4049e3-97d3-4e3f-a716-90fca143a590}.xml" />
+    <Content Include="Entities\new_customtestbyme\FormXml\mobile\{a9c7ceaf-cd36-48f4-a4d5-637983c74676}.xml" />
+    <Content Include="Entities\new_customtestbyme\FormXml\quick\{719cecd4-761a-42b8-8148-862598e12de2}.xml" />
+    <Content Include="Entities\new_customtestbyme\RibbonDiff.xml" />
+    <Content Include="Entities\new_customtestbyme\SavedQueries\{815b2811-fe28-4642-a847-b840ef487043}.xml" />
+    <Content Include="Entities\new_customtestbyme\SavedQueries\{a96e5f72-39cc-400c-8c5c-3b0ab6f510d3}.xml" />
+    <Content Include="Entities\new_customtestbyme\SavedQueries\{b46872a5-72bf-4637-a3a2-502d0990ed13}.xml" />
+    <Content Include="Entities\new_customtestbyme\SavedQueries\{c3f8b305-bd8a-e611-80d5-00155db242c4}.xml" />
+    <Content Include="Entities\new_customtestbyme\SavedQueries\{ec63a108-9575-462f-bf79-56c28e973a56}.xml" />
+    <Content Include="Entities\new_customtestbyme\SavedQueries\{f385201d-89cc-4d27-9771-5317cd2a47e2}.xml" />
+    <Content Include="Entities\new_customtestbyme\SavedQueries\{ff230632-d3b3-47e9-aed9-b35ae1024ec0}.xml" />
+    <Content Include="Other\Customizations.xml" />
+    <Content Include="Other\Relationships.xml" />
+    <Content Include="Other\Relationships\BusinessUnit.xml" />
+    <Content Include="Other\Relationships\Owner.xml" />
+    <Content Include="Other\Relationships\SystemUser.xml" />
+    <Content Include="Other\Relationships\Team.xml" />
+    <Content Include="Other\Solution.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PluginAssemblies\TestSolutionPlug1-3F2DFCF3-A2FE-473B-B772-38A924E8A78A\TestSolutionPlug1.dll" />
+    <Content Include="PluginAssemblies\TestSolutionPlug1-3F2DFCF3-A2FE-473B-B772-38A924E8A78A\TestSolutionPlug1.dll.data.xml" />
+    <Content Include="Resources\en-US\resources.en-US.resx" />
+    <Content Include="Resources\template_resources.resx" />
+    <Content Include="SdkMessageProcessingSteps\{b723c9cb-be8a-e611-80d5-00155db242c4}.xml" />
+  </ItemGroup>
+  <Import Project="Microsoft.Crm.SolutionProjects.Metadata.targets" />
+</Project>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="TestSolution.Plug1, Version=1.3.0.0, Culture=neutral, PublicKeyToken=63e2b1dab3283943" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/TestSolutionPlug1-3F2DFCF3-A2FE-473B-B772-38A924E8A78A/TestSolutionPlug1.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="TestSolution.Plug1.PreValidatenew_customtestbymeCreate, TestSolution.Plug1, Version=1.3.0.0, Culture=neutral, PublicKeyToken=63e2b1dab3283943" Name="TestSolution.Plug1.PreValidatenew_customtestbymeCreate">
+      <FriendlyName>f1106cde-c6e1-46b0-b42e-2d5df0521227</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>
