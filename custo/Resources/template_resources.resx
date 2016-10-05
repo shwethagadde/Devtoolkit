@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>HoldingSolution.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Unmanaged</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVp
+        bGQJX1JldmlzaW9uAAAAAAgICAgIAAAAAAAAAAAAAAAAAAAACw==
+</value>
+  </metadata>
+  <data name="10:Description,business_unit_new_customtestbyme" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>new_customtestbyme Description for EntityRelationship 'business_unit_new_customtestbyme'</comment>
+  </data>
+  <data name="10:Description,lk_new_customtestbyme_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>new_customtestbyme Description for EntityRelationship 'lk_new_customtestbyme_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_new_customtestbyme_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>new_customtestbyme Description for EntityRelationship 'lk_new_customtestbyme_modifiedby'</comment>
+  </data>
+  <data name="10:Description,owner_new_customtestbyme" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>new_customtestbyme Description for EntityRelationship 'owner_new_customtestbyme'</comment>
+  </data>
+  <data name="10:Description,team_new_customtestbyme" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>new_customtestbyme Description for EntityRelationship 'team_new_customtestbyme'</comment>
+  </data>
+  <data name="10:Description,user_new_customtestbyme" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>new_customtestbyme Description for EntityRelationship 'user_new_customtestbyme'</comment>
+  </data>
+  <data name="1:Description,CustomTestByMe{5c4049e3-97d3-4e3f-a716-90fca143a590}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'CustomTestByMe' : Description for systemform in Entity FormXml ID: '{5c4049e3-97d3-4e3f-a716-90fca143a590}'</comment>
+  </data>
+  <data name="1:Description,CustomTestByMe{98c8f280-3bbd-41fd-b823-454174eec449}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'CustomTestByMe' : Description for systemform in Entity FormXml ID: '{98c8f280-3bbd-41fd-b823-454174eec449}'</comment>
+  </data>
+  <data name="1:Description,CustomTestByMe{a41aada4-eb04-429d-817e-00b097c6245f}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'CustomTestByMe' : Description for systemform in Entity FormXml ID: '{a41aada4-eb04-429d-817e-00b097c6245f}'</comment>
+  </data>
+  <data name="1:Description,CustomTestByMe{a9c7ceaf-cd36-48f4-a4d5-637983c74676}" xml:space="preserve">
+    <value>This is the form that is displayed for the CRM for phones express application.</value>
+    <comment>'CustomTestByMe' : Description for systemform in Entity FormXml ID: '{a9c7ceaf-cd36-48f4-a4d5-637983c74676}'</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeentitynew_customtestbyme" xml:space="preserve">
+    <value />
+    <comment> 'new_customtestbyme' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymenew_customtestbymeId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'new_customtestbymeId' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymenew_customtestbyme_statecode" xml:space="preserve">
+    <value>Status of the CustomTestByMe</value>
+    <comment>'new_customtestbyme' : Description for OptionSet 'new_customtestbyme_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymenew_customtestbyme_statuscode" xml:space="preserve">
+    <value>Reason for the status of the CustomTestByMe</value>
+    <comment>'new_customtestbyme' : Description for OptionSet 'new_customtestbyme_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymenew_name" xml:space="preserve">
+    <value>The name of the custom entity.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'new_name' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeOwnerIdName" xml:space="preserve">
+    <value>Name of the owner</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'OwnerIdName' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeOwnerIdType" xml:space="preserve">
+    <value>Owner Id Type</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'OwnerIdType' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeOwnerIdYomiName" xml:space="preserve">
+    <value>Yomi name of the owner</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'OwnerIdYomiName' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymestatecode" xml:space="preserve">
+    <value>Status of the CustomTestByMe</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymestatuscode" xml:space="preserve">
+    <value>Reason for the status of the CustomTestByMe</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,new_customtestbymeUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'new_customtestbyme' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymenew_customtestbymeId" xml:space="preserve">
+    <value>CustomTestByMe</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'new_customtestbymeId' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymenew_customtestbyme_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'new_customtestbyme' : displayname for OptionSet 'new_customtestbyme_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymenew_customtestbyme_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'new_customtestbyme' : displayname for OptionSet 'new_customtestbyme_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymenew_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'new_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymestatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymestatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,new_customtestbymeUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'new_customtestbyme' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{0d25f89e-fab5-4efe-8419-7c166bc43b0e}" xml:space="preserve">
+    <value>Status</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{0d25f89e-fab5-4efe-8419-7c166bc43b0e}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{10645183-17df-4777-ac1a-6fe2fb353350}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{10645183-17df-4777-ac1a-6fe2fb353350}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{10ca1650-f5ce-4319-926a-99f77530237a}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{10ca1650-f5ce-4319-926a-99f77530237a}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{217e0f4b-88d1-4d6a-ab62-424282863893}" xml:space="preserve">
+    <value>ColorStrip</value>
+    <comment>'CustomTestByMe' : label for section in Entity FormXml ID: '{217e0f4b-88d1-4d6a-ab62-424282863893}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{25d6685f-9980-4210-8b93-cac655494f15}" xml:space="preserve">
+    <value />
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{25d6685f-9980-4210-8b93-cac655494f15}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{26528bca-2e97-43cd-afe1-d2d5206987e0}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{26528bca-2e97-43cd-afe1-d2d5206987e0}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{34dfac38-e02b-4d10-b4fd-b734f5b3877b}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{34dfac38-e02b-4d10-b4fd-b734f5b3877b}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{366ad18d-4457-4662-9067-99db2798e2bf}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{366ad18d-4457-4662-9067-99db2798e2bf}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{43e93801-9ad1-43d0-aea1-d63a35071b03}" xml:space="preserve">
+    <value />
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{43e93801-9ad1-43d0-aea1-d63a35071b03}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{45fac6b7-c146-4311-a10d-efbc90fd857f}" xml:space="preserve">
+    <value>GENERAL</value>
+    <comment>'CustomTestByMe' : label for section in Entity FormXml ID: '{45fac6b7-c146-4311-a10d-efbc90fd857f}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{5c6d1363-b5b6-7063-0465-214ced4e6cd5}" xml:space="preserve">
+    <value>DisableWeb</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{5c6d1363-b5b6-7063-0465-214ced4e6cd5}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{66ecba80-d8b0-423a-a3d8-e467d97ee423}" xml:space="preserve">
+    <value>RELATED</value>
+    <comment>'CustomTestByMe' : label for section in Entity FormXml ID: '{66ecba80-d8b0-423a-a3d8-e467d97ee423}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{6c6d7693-15c0-404a-b971-cce8b8781477}" xml:space="preserve">
+    <value>TIMELINE</value>
+    <comment>'CustomTestByMe' : label for section in Entity FormXml ID: '{6c6d7693-15c0-404a-b971-cce8b8781477}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{7d2268f8-a20c-44b5-ab8e-709ba88ce2f2}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{7d2268f8-a20c-44b5-ab8e-709ba88ce2f2}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{80523b3d-03e2-443a-b7b7-6409bda21ea1}" xml:space="preserve">
+    <value />
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{80523b3d-03e2-443a-b7b7-6409bda21ea1}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{81a241cc-9897-40c5-99da-6ca80286403e}" xml:space="preserve">
+    <value>General Info</value>
+    <comment>'CustomTestByMe' : label for tab in Entity FormXml ID: '{81a241cc-9897-40c5-99da-6ca80286403e}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{87f62300-fc7d-4188-ba23-b02ef9596795}" xml:space="preserve">
+    <value>Conversation Tabs</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{87f62300-fc7d-4188-ba23-b02ef9596795}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{8f51a140-8ea5-45f7-94b8-c51ea7b7961b}" xml:space="preserve">
+    <value />
+    <comment>'CustomTestByMe' : label for tab in Entity FormXml ID: '{8f51a140-8ea5-45f7-94b8-c51ea7b7961b}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{95440c56-b4c4-4038-8f7d-66146b4b1386}" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{95440c56-b4c4-4038-8f7d-66146b4b1386}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{9584b105-3331-4d21-9c0c-b73b85100a58}" xml:space="preserve">
+    <value>General</value>
+    <comment>'CustomTestByMe' : label for section in Entity FormXml ID: '{9584b105-3331-4d21-9c0c-b73b85100a58}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{9652ef4c-f8c9-4cf0-84c0-e0f7c9597c1d}" xml:space="preserve">
+    <value />
+    <comment>'CustomTestByMe' : label for tab in Entity FormXml ID: '{9652ef4c-f8c9-4cf0-84c0-e0f7c9597c1d}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{9cf26f32-be7f-431a-ba6a-9738c7a78972}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{9cf26f32-be7f-431a-ba6a-9738c7a78972}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{a0145d46-b64b-45e3-8d1c-b4784473c061}" xml:space="preserve">
+    <value />
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{a0145d46-b64b-45e3-8d1c-b4784473c061}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{b6056b9f-ffe4-4b9f-b565-0a67d925f958}" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{b6056b9f-ffe4-4b9f-b565-0a67d925f958}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{b7c086ca-a3c5-47d7-8170-efd3ed1685dc}" xml:space="preserve">
+    <value />
+    <comment>'CustomTestByMe' : label for tab in Entity FormXml ID: '{b7c086ca-a3c5-47d7-8170-efd3ed1685dc}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{bb60a2cd-4e5f-4a8c-88e6-04432010ac8f}" xml:space="preserve">
+    <value>General</value>
+    <comment>'CustomTestByMe' : label for section in Entity FormXml ID: '{bb60a2cd-4e5f-4a8c-88e6-04432010ac8f}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{c9351632-87b8-410d-ad34-43c02edcc910}" xml:space="preserve">
+    <value />
+    <comment>'CustomTestByMe' : label for section in Entity FormXml ID: '{c9351632-87b8-410d-ad34-43c02edcc910}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{cd313cbf-b80f-4dd8-ad5f-ace017180e45}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'CustomTestByMe' : label for section in Entity FormXml ID: '{cd313cbf-b80f-4dd8-ad5f-ace017180e45}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{d75f8755-0419-44f1-beb5-98a2b802173c}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'CustomTestByMe' : label for section in Entity FormXml ID: '{d75f8755-0419-44f1-beb5-98a2b802173c}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{d9d76683-2ccb-4a3f-b2e3-baf8e92557c4}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'CustomTestByMe' : label for section in Entity FormXml ID: '{d9d76683-2ccb-4a3f-b2e3-baf8e92557c4}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{e49beba7-7c15-4893-8142-f1fa81318309}" xml:space="preserve">
+    <value>General</value>
+    <comment>'CustomTestByMe' : label for tab in Entity FormXml ID: '{e49beba7-7c15-4893-8142-f1fa81318309}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{f5cc1d0d-32b0-4b50-865d-a179cc73a13e}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{f5cc1d0d-32b0-4b50-865d-a179cc73a13e}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{f733571a-3d70-4102-a29c-c2f0b7470d76}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{f733571a-3d70-4102-a29c-c2f0b7470d76}'</comment>
+  </data>
+  <data name="1:label,CustomTestByMe{f8f30fae-1986-4c5f-8f67-e927e89e1ac3}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'CustomTestByMe' : label for cell in Entity FormXml ID: '{f8f30fae-1986-4c5f-8f67-e927e89e1ac3}'</comment>
+  </data>
+  <data name="1:label,new_customtestbymenew_customtestbyme_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'new_customtestbyme' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,new_customtestbymenew_customtestbyme_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'new_customtestbyme' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,new_customtestbymenew_customtestbyme_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'new_customtestbyme' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,new_customtestbymenew_customtestbyme_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'new_customtestbyme' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,new_customtestbymeentitynew_customtestbyme" xml:space="preserve">
+    <value>CustomTestByMe</value>
+    <comment> 'new_customtestbyme' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{5c4049e3-97d3-4e3f-a716-90fca143a590}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'CustomTestByMe' : LocalizedName for systemform in Entity FormXml ID: '{5c4049e3-97d3-4e3f-a716-90fca143a590}'</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{719cecd4-761a-42b8-8148-862598e12de2}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'CustomTestByMe' : LocalizedName for systemform in Entity FormXml ID: '{719cecd4-761a-42b8-8148-862598e12de2}'</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{815b2811-fe28-4642-a847-b840ef487043}" xml:space="preserve">
+    <value>CustomTestByMe Advanced Find View</value>
+    <comment>'CustomTestByMe' : LocalizedName for SavedQuery on Entity QueryId: '{815b2811-fe28-4642-a847-b840ef487043}'</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{98c8f280-3bbd-41fd-b823-454174eec449}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'CustomTestByMe' : LocalizedName for systemform in Entity FormXml ID: '{98c8f280-3bbd-41fd-b823-454174eec449}'</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{a41aada4-eb04-429d-817e-00b097c6245f}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'CustomTestByMe' : LocalizedName for systemform in Entity FormXml ID: '{a41aada4-eb04-429d-817e-00b097c6245f}'</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{a96e5f72-39cc-400c-8c5c-3b0ab6f510d3}" xml:space="preserve">
+    <value>Active CustomTestByMe</value>
+    <comment>'CustomTestByMe' : LocalizedName for SavedQuery on Entity QueryId: '{a96e5f72-39cc-400c-8c5c-3b0ab6f510d3}'</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{a9c7ceaf-cd36-48f4-a4d5-637983c74676}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'CustomTestByMe' : LocalizedName for systemform in Entity FormXml ID: '{a9c7ceaf-cd36-48f4-a4d5-637983c74676}'</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{b46872a5-72bf-4637-a3a2-502d0990ed13}" xml:space="preserve">
+    <value>CustomTestByMe Lookup View</value>
+    <comment>'CustomTestByMe' : LocalizedName for SavedQuery on Entity QueryId: '{b46872a5-72bf-4637-a3a2-502d0990ed13}'</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{c3f8b305-bd8a-e611-80d5-00155db242c4}" xml:space="preserve">
+    <value>My CustomTestByMe</value>
+    <comment>'CustomTestByMe' : LocalizedName for SavedQuery on Entity QueryId: '{c3f8b305-bd8a-e611-80d5-00155db242c4}'</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{ec63a108-9575-462f-bf79-56c28e973a56}" xml:space="preserve">
+    <value>Quick Find Active CustomTestByMe</value>
+    <comment>'CustomTestByMe' : LocalizedName for SavedQuery on Entity QueryId: '{ec63a108-9575-462f-bf79-56c28e973a56}'</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{f385201d-89cc-4d27-9771-5317cd2a47e2}" xml:space="preserve">
+    <value>CustomTestByMe Associated View</value>
+    <comment>'CustomTestByMe' : LocalizedName for SavedQuery on Entity QueryId: '{f385201d-89cc-4d27-9771-5317cd2a47e2}'</comment>
+  </data>
+  <data name="1:LocalizedName,CustomTestByMe{ff230632-d3b3-47e9-aed9-b35ae1024ec0}" xml:space="preserve">
+    <value>Inactive CustomTestByMe</value>
+    <comment>'CustomTestByMe' : LocalizedName for SavedQuery on Entity QueryId: '{ff230632-d3b3-47e9-aed9-b35ae1024ec0}'</comment>
+  </data>
+  <data name="1:LocalizedName,new_customtestbymeentitynew_customtestbyme" xml:space="preserve">
+    <value>CustomTestByMe</value>
+    <comment> 'new_customtestbyme' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:Title,CustomTestByMeInfo{5c4049e3-97d3-4e3f-a716-90fca143a590}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'CustomTestByMe' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,CustomTestByMeMarketing{5c4049e3-97d3-4e3f-a716-90fca143a590}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'CustomTestByMe' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,CustomTestByMeProcessCenter{5c4049e3-97d3-4e3f-a716-90fca143a590}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'CustomTestByMe' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,CustomTestByMeSales{5c4049e3-97d3-4e3f-a716-90fca143a590}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'CustomTestByMe' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,CustomTestByMeService{5c4049e3-97d3-4e3f-a716-90fca143a590}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'CustomTestByMe' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+</root>

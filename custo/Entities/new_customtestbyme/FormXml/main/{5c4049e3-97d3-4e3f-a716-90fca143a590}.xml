@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{5c4049e3-97d3-4e3f-a716-90fca143a590}</formid>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{e49beba7-7c15-4893-8142-f1fa81318309}" IsUserDefined="1">
+        <labels>
+          <label description="General" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{9584b105-3331-4d21-9c0c-b73b85100a58}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{f5cc1d0d-32b0-4b50-865d-a179cc73a13e}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{f733571a-3d70-4102-a29c-c2f0b7470d76}">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{5c6d1363-b5b6-7063-0465-214ced4e6cd5}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                      <labels>
+                        <label description="DisableWeb" languagecode="1033" />
+                      </labels>
+                      <control id="WebResource_DisableWeb" classid="{587CDF98-C1D5-4bde-8473-14A0BC7644A7}">
+                        <parameters>
+                          <Url>msdyn_/Images/16_Yammer_disable.png</Url>
+                          <SizeType>StretchMaintainAspectRatio</SizeType>
+                          <HorizontalAlignment>Center</HorizontalAlignment>
+                          <VerticalAlignment>Middle</VerticalAlignment>
+                          <WebResourceId>{E7CD0130-0266-4A2C-BAC8-BD01F85A1246}</WebResourceId>
+                        </parameters>
+                      </control>
+                      <events>
+                        <event name="onload" application="0">
+                          <dependencies />
+                        </event>
+                      </events>
+                    </cell>
+                  </row>
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <Navigation>
+      <NavBar></NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

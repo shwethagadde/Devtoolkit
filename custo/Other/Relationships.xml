@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="business_unit_new_customtestbyme" />
+  <EntityRelationship Name="lk_new_customtestbyme_createdby" />
+  <EntityRelationship Name="lk_new_customtestbyme_modifiedby" />
+  <EntityRelationship Name="owner_new_customtestbyme" />
+  <EntityRelationship Name="team_new_customtestbyme" />
+  <EntityRelationship Name="user_new_customtestbyme" />
+</EntityRelationships>
